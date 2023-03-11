@@ -1,9 +1,46 @@
 // function to generate markdown for README
+
 function generateMarkdown(data) {
 
+// if else statements that return the correct license badge based on the information the user inputs
 
-  
-  // the below is what will generate the README file after the user has entered the required information
+let badge;
+
+if (data.license === "MIT") {
+
+  badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+
+} if (data.license === "Mozilla") {
+
+  badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+
+} 
+
+if (data.license === "ISC") {
+
+  badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+
+}
+
+if (data.license === "Perl") {
+
+  badge = "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)";
+
+}
+
+if (data.license === "Unlicense") {
+
+  badge = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
+
+}
+
+if (data.license === "None") {
+
+  badge = "";
+
+}
+
+// the below is what will generate the README file after the user has entered the required information
   
   return `# ${data.title}
 
@@ -21,6 +58,8 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## License
+
+  ${licenseBadge}
 
   This project is covered under the following license: ${data.license}
 
