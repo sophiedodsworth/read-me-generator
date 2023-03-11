@@ -1,8 +1,8 @@
-# Test
+# README generator
 
   ## Description
 
-  Testing
+  This is a command-line application to quickly and easily generate a README file. The motivation behind this project was to allow people to devote more time to working on the project rather than manually creating a README.
 
   ## Table of Contents 
 
@@ -21,15 +21,15 @@
 
   ## Installation
 
-  Unsure
+  This application depends on node.js being installed in order for it to run.
 
   ## Tests
 
-  None
+  The application will be invoked by using the following comand: node index.js
 
   ## Usage
 
-  Nothing
+  Create a new branch and submit a pull request
 
   ## Contributing
 
@@ -38,5 +38,5 @@
 
   ## Questions
 
-  If you have any questions please feel free to reach out to me directly at sophiedodsworth@hotmail.com. If you'd like to check out more of my work, you can do so here https://github.com/sophiedodsworth/.
+  If you have any questions please feel free to reach out to me directly at sndodsworth@gmail.com. If you'd like to check out more of my work, you can do so here https://github.com/sophiedodsworth/
 
