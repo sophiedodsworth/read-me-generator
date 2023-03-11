@@ -2,7 +2,7 @@
 
   ## Description
 
-  Testing the readme generator
+  Testing the test
 
   ## Table of Contents 
 
@@ -33,7 +33,7 @@
 
   ## Contributing
 
-  This project involved the following contributors: No one, just me
+  This project involved the following contributors: Just me
 
   ## Questions
 

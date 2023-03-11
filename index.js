@@ -25,7 +25,7 @@ inquirer
     },
     {
         type: "input",
-        message: "What command should be run to install dependencies?",
+        message: "What should the user do if there are any installation dependencies?",
         name: "installation"
     },
     {
