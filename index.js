@@ -4,7 +4,10 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = [
+inquirer
+
+  .prompt([
+
     {
         type: "input",
         message: "What is the title of your project?",
@@ -51,16 +54,22 @@ const questions = [
         message: "What is your email address?",
         name: "email"
     },
-];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
+]).then((information) => {
 
-// function to initialize program
-function init() {
+    console.log(information);
 
-}
+    fs.writeFile('README.md' . generateMarkdown(information),
 
-// function call to initialize program
-init();
+    error =>{
+
+        if (error) {
+
+            console.log('Unable to generate README file - please input all the required information')
+        }
+
+        console.log('Your README file has been generated')
+
+    }
+
+)})
