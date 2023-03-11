@@ -4,6 +4,7 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
+
 inquirer
 
   .prompt([
@@ -22,7 +23,7 @@ inquirer
         type: "list",
         message: "What license should your project have?",
         name: "license",
-        choices: ['None','MIT','Mozilla', 'ISC', 'Perl', 'Unilicense']
+        choices: ['None', 'MIT','Mozilla', 'ISC', 'Perl', 'Unlicense']
     },
     {
         type: "input",
@@ -57,19 +58,9 @@ inquirer
 
 ]).then((information) => {
 
-    console.log(information);
+    const README = generateMarkdown(information)
 
-    fs.writeFile('README.md' . generateMarkdown(information),
-
-    error =>{
-
-        if (error) {
-
-            console.log('Unable to generate README file - please input all the required information')
-        }
-
-        console.log('Your README file has been generated')
-
-    }
-
-)})
+    fs.writeFile("README.md", README, (err) => 
+err? console.error(err) : console.log("Your README file has been generated")
+    )
+});
