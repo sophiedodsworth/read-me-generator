@@ -1,8 +1,13 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+
+
+  
+  // the below is what will generate the README file after the user has entered the required information
+  
   return `# ${data.title}
 
-  ##Description
+  ## Description
 
   ${data.description}
 
@@ -17,7 +22,7 @@ function generateMarkdown(data) {
   
   ## License
 
-  ${data.license}
+  This project is covered under the following license: ${data.license}
 
   ## Installation
 
@@ -33,14 +38,15 @@ function generateMarkdown(data) {
 
   ## Contributing
 
-  ${data.contributing}
+  This project involved the following contributors: ${data.contributing}
 
   ## Questions
 
-  ${data.profile}
-  ${data.email}
+  If you have any questions please feel free to reach out to me directly at ${data.email}. If you'd like to check out more of my work, you can do so here https://github.com/${data.profile}/
 
 `;
 }
+
+// below code ensures that the generateMarkdown is exported 
 
 module.exports = generateMarkdown;
