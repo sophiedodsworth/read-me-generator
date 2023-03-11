@@ -2,7 +2,7 @@
 
   ## Description
 
-  This is a command-line application to quickly and easily generate a README file. The motivation behind this project was to allow people to devote more time to working on the project rather than manually creating a README.
+  This is a command-line application to quickly and easily generate a README file. The motivation behind this project was to allow people to devote more time to working on the project rather than manually creating a README. For a video walkthrough, please click on this link: https://youtu.be/mmuNv2u1tcA
 
   ## Table of Contents 
 
@@ -21,11 +21,11 @@
 
   ## Installation
 
-  This application depends on node.js being installed in order for it to run.
+  This application depends on node.js being installed in order for it to run. 
 
   ## Tests
 
-  The application will be invoked by using the following comand: node index.js
+  The application will be invoked by using the following command: Node index.js
 
   ## Usage
 
