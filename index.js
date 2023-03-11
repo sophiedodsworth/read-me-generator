@@ -54,9 +54,9 @@ inquirer
         name: "email"
     },
 
-]).then((information) => {
+]).then((info) => {
 
-    const README = generateMarkdown(information)
+    const README = generateMarkdown(info)
 
     fs.writeFile("README.md", README, (err) => 
 err? console.error(err) : console.log("Your README file has been successfully generated.")

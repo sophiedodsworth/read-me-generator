@@ -65,7 +65,7 @@ if (data.license === "None") {
 
   ## Installation
 
-  ${data.install}
+  ${data.installation}
 
   ## Tests
 
@@ -77,7 +77,8 @@ if (data.license === "None") {
 
   ## Contributing
 
-  This project involved the following contributors: ${data.contributing}
+  Contributors to this project:
+  ${data.contributing}
 
   ## Questions
 

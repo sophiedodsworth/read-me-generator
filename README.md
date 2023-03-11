@@ -2,7 +2,7 @@
 
   ## Description
 
-  Testing the test
+  Testing
 
   ## Table of Contents 
 
@@ -21,21 +21,22 @@
 
   ## Installation
 
-  undefined
+  Unsure
 
   ## Tests
 
-  npm test
+  None
 
   ## Usage
 
-  Create a branch and submit a pull request
+  Nothing
 
   ## Contributing
 
-  This project involved the following contributors: Just me
+  Contributors to this project:
+  Just me
 
   ## Questions
 
-  If you have any questions please feel free to reach out to me directly at sophiedodsworth@hotmail.com. If you'd like to check out more of my work, you can do so here https://github.com/sophiedodsworth/
+  If you have any questions please feel free to reach out to me directly at sophiedodsworth@hotmail.com. If you'd like to check out more of my work, you can do so here https://github.com/sophiedodsworth/.
 
