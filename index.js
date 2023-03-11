@@ -3,8 +3,6 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
-
 inquirer
 
   .prompt([
@@ -37,12 +35,12 @@ inquirer
     },
     {
         type: "input",
-        message: "What does someone else need to know about using your repo?",
+        message: "What does someone need to do if they wish to add to your repo?",
         name: "usage"
     },
     {
         type: "input",
-        message: "How could someone else contribute to this repo?",
+        message: "Who else contributed to this project?",
         name: "contributing"
     },
     {
@@ -61,6 +59,6 @@ inquirer
     const README = generateMarkdown(information)
 
     fs.writeFile("README.md", README, (err) => 
-err? console.error(err) : console.log("Your README file has been generated")
+err? console.error(err) : console.log("Your README file has been successfully generated.")
     )
 });

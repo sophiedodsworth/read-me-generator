@@ -2,7 +2,7 @@
 
   ## Description
 
-  Testing the generator
+  Testing the readme generator
 
   ## Table of Contents 
 
@@ -29,11 +29,11 @@
 
   ## Usage
 
-  Use at your own discretion
+  Create a branch and submit a pull request
 
   ## Contributing
 
-  This project involved the following contributors: Fork and pull request
+  This project involved the following contributors: No one, just me
 
   ## Questions
 
